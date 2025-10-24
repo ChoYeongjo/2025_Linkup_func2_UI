@@ -3,7 +3,10 @@ import streamlit as st
 
 # st.set_page_config(layout="wide")
 st.title("💉CRS Risk Scan (Post-Infusion)")
-st.markdown("**CAR-T 치료제** 투여 후 추적 관찰 시점별로, <br>해당 시점으로부터 24시간 내 중증 CRS(3등급 이상) 발생 여부를 예측합니다.")
+st.markdown("""
+**CAR-T 치료제** 투여 후 추적 관찰 시점별로,
+해당 시점으로부터 24시간 내 중증 CRS(3등급 이상) 발생 여부를 예측합니다.
+""")
 
 cols=st.columns(7)
 cytokines = ["IL-2", "IL-4", "IL-6", "IL-10", "TNFα", "IFNγ", "IL-17A"]
