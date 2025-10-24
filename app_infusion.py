@@ -1,7 +1,7 @@
 import streamlit as st
 # only UI 일단 임시
 
-st.set_page_config(layout="wide")
+# st.set_page_config(layout="wide")
 st.title("💉CRS Risk Scan (Post-Infusion)")
 st.markdown("**CAR-T 세포 치료제** 주입 후, 환자 추적 관찰 중 **24시간 내 중증 CRS** 발생 여부를 예측합니다.")
 
